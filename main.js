@@ -19,7 +19,15 @@ document.querySelector('form').addEventListener('submit', function(event) {
       alert('Please select a voice');
     }
   });
-  
+  //JS code to download audionfile
+  // Add download link to page
+  var downloadLink = document.createElement('a');
+  downloadLink.setAttribute('href', audioUrl);
+  downloadLink.setAttribute('download', 'audio.mp3');
+  downloadLink.innerHTML = 'Download Audiobook';
+  document.getElementById('download-link-container').appendChild(downloadLink);
+
+
   // JavaScript code to display audio file once generated
   var audio = document.createElement('audio');
   audio.setAttribute('controls', 'controls');
