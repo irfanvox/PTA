@@ -2,7 +2,7 @@
 
 This is a web application that allows you to convert PDF files to audiobooks.
 
-To use the application, simply go to the [live demo](https://github.com/irfanvox/workspaces/) and select a PDF file to upload.
+To use the application, simply go to the [live demo](https://github.com/irfanvox/PTA) and select a PDF file to upload.
 
 The application will extract the text content from the PDF file and convert it to an MP3 audio file using the Google Text-to-Speech API.
 
@@ -12,7 +12,7 @@ Try it out now and convert your favorite PDF books to audiobooks!
 
 ## Live Demo
 
-Check out the [live demo](https://github.com/irfanvox/workspaces/) to try out the PDF to Audiobook Converter.
+Check out the [live demo](https://github.com/irfanvox/PTA) to try out the PDF to Audiobook Converter.
 
 ## How it Works
 
