@@ -1,0 +1,101 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set font and text color */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Center page content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style the header */
+  .header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Style the file upload form */
+  .file-upload {
+    margin-bottom: 50px;
+  }
+  
+  .file-upload label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .file-upload input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the loading spinner */
+  .spinner {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .spinner i {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Style the audio player */
+  .audio-player {
+    margin-bottom: 50px;
+  }
+  
+  .audio-player audio {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the download link */
+  .download-link {
+    text-align: center;
+  }
+  
+  .download-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .download-link a:hover {
+    background-color: #666;
+  }
+  
